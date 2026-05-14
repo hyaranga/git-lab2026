@@ -1,3 +1,8 @@
 Configuracion BGP
+
+interface loop0
+ip add 1.1.1.1 255.255.255.255
+
 router bgp 100
+router-id 1.1.1.1
 
